@@ -2,6 +2,10 @@
 <html lang="pl">
 <head>
 <meta charset="UTF-8">
+<meta name="theme-color" content="#EDE9E2">
+<meta name="theme-color" content="#EDE9E2">
+<meta name="theme-color" content="#EDE9E2">
+<meta name="theme-color" content="#EDE9E2">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kontakt - Kamax</title>
 <meta name="description" content="Kontakt Kamax - Częstochowa, śląskie">
@@ -19,92 +23,105 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css?v=93d61634">
+<link href="https://fonts.googleapis.com/css2?family=Gloock&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css?v=20261104k">
 </head>
 <body>
 
 <header class="nav">
-  <div class="wrap nav-inner">
-    <a class="brand" href="index.html"><span class="name">Kamax</span><span class="sub">Częstochowa</span></a>
-    <nav class="nav-links">
-      <a href="oferta.html">Oferta</a>
-      <a href="realizacje.html">Realizacje</a>
-      <a href="o-nas.html">O nas</a>
-      <a href="kontakt.html" class="active" aria-current="page">Kontakt</a>
-      <a href="tel:+48791977070" class="btn btn-accent">Zadzwoń +48 791 977 070</a>
-    </nav>
-    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  <div class="nav-inner">
+    <a class="brand" href="index.html" aria-label="Kamax - strona główna"><span class="name">KAMAX</span><span class="tag">Hale i&nbsp;budynki · Częstochowa</span></a>
+    <button class="nav-toggle" aria-label="Menu" aria-controls="menu"><span></span><span></span></button>
+    <a class="nav-phone" href="tel:+48791977070">+48 791 977 070 <span class="arr">→</span></a>
   </div>
+  <nav class="nav-links" id="menu" aria-label="Menu główne">
+    <div class="menu-inner">
+      <div class="menu-top"><span class="name">KAMAX</span><span></span><a class="btn" href="tel:+48791977070">+48 791 977 070</a></div>
+      <div class="menu-cols">
+        <ul class="menu-main">
+          <li><a href="index.html">Start</a></li>
+          <li><a href="oferta.html">Oferta</a></li>
+          <li><a href="realizacje.html">Realizacje</a></li>
+          <li><a href="o-nas.html">O&nbsp;nas</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+        <div class="menu-col"><p class="menu-ttl">Co budujemy</p><ul><li><a href="oferta.html#konstrukcje">Konstrukcje stalowe</a></li><li><a href="oferta.html#magazynowe">Hale magazynowe</a></li><li><a href="oferta.html#produkcyjne">Hale produkcyjne</a></li><li><a href="oferta.html#rozbudowy">Rozbudowy i&nbsp;przebudowy</a></li><li><a href="oferta.html#plyty">Obudowa z&nbsp;płyt warstwowych</a></li><li><a href="oferta.html#uslugowe">Budynki usługowe i&nbsp;gospodarcze</a></li></ul></div>
+        <div class="menu-col"><p class="menu-ttl">Kontakt</p><ul>
+          <li><a href="tel:+48791977070">+48 791 977 070</a></li>
+          <li><a href="sms:+48791977070">Napisz SMS</a></li>
+          <li class="muted">Częstochowa i&nbsp;okolice</li>
+        </ul></div>
+      </div>
+    </div>
+  </nav>
 </header>
 
 <main>
-<section class="pagehead">
-  <img src="img/g9.jpg" alt="Kamax - Zapytaj o wycenę" width="1600" height="1066" decoding="async">
+<section class="banner banner--sub">
+  <div class="banner__content">
+    <span class="sub">Kontakt · wycena</span>
+    <h1>Porozmawiajmy</h1>
+    <p class="banner__txt">Zadzwoń albo napisz SMS. Opowiedz, co ma stanąć na działce, a&nbsp;umówimy oględziny.</p>
+    <div class="btns"><a class="btn" href="tel:+48791977070">Zadzwoń +48 791 977 070</a></div>
+  </div>
+  <figure class="hero-img banner__img"><img src="img/g8.jpg" alt="Brama segmentowa w hali" fetchpriority="high" width="1600" height="1066"></figure>
+</section>
+
+<section class="bg-ink pv">
   <div class="wrap">
-    <span class="eyebrow">Kontakt</span>
-    <h1>Zapytaj o wycenę</h1>
-    <p>Odpowiemy na pytania i przygotujemy wycenę.</p>
-  </div>
-</section>
-<section>
-  <div class="wrap contact-grid">
-    <div class="reveal">
-      <span class="eyebrow">Dane kontaktowe</span>
-      <h2 style="margin:var(--space-4) 0 var(--space-6)">Kamax</h2>
-      <div class="info-list">
-        <div class="info-row"><div class="ic"><svg class="ico-tel" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg></div><div><div class="lbl">Telefon</div><a class="val" href="tel:+48791977070">+48 791 977 070</a></div></div>
-        <div class="info-row"><div class="ic"><svg class="ico-pin" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21s7-6.1 7-11.5A7 7 0 0 0 5 9.5C5 14.9 12 21 12 21Z" stroke="currentColor" stroke-width="1.6" fill="none"/><circle cx="12" cy="9.5" r="2.4" fill="currentColor"/></svg></div><div><div class="lbl">Adres</div><div class="val">Częstochowa, śląskie</div></div></div>
-      </div>
+    <div class="contact-grid">
+      <div class="c-card reveal"><span class="sub">Telefon</span><a class="val" href="tel:+48791977070">+48 791 977 070</a><p>Zadzwoń i&nbsp;opowiedz o&nbsp;inwestycji. Powiemy, od czego zacząć.</p></div>
+      <div class="c-card reveal"><span class="sub">SMS</span><a class="val" href="sms:+48791977070">+48 791 977 070</a><p>Napisz wymiar i&nbsp;lokalizację, oddzwonimy.</p></div>
+      <div class="c-card reveal"><span class="sub">Obszar działania</span><span class="val">Częstochowa i&nbsp;okolice</span><p>Nie wiesz, czy dojedziemy? Podaj lokalizację działki.</p></div>
     </div>
-    <div class="reveal">
-      <div class="form">
-        <h3 style="margin-bottom:var(--space-4)">Najszybciej telefonicznie</h3>
-        <p class="muted" style="margin-bottom:var(--space-5)">Zadzwoń, opisz pomysł, a my powiemy, co i jak. Bez zobowiązań.</p>
-        <a href="tel:+48791977070" class="btn btn-accent" style="justify-content:center">Zadzwoń: +48 791 977 070 <span class="arr">→</span></a>
-      </div>
+    <div class="map reveal">
+      <iframe title="Kamax - Częstochowa" src="https://maps.google.com/maps?q=50.8732028%2C19.0632461&amp;z=11&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
 </section>
-<section style="padding-top:0">
-  <div class="wrap reveal">
-    <iframe class="map" title="Kamax - Częstochowa" src="https://maps.google.com/maps?q=50.8732028%2C19.0632461&z=15&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<section class="bg-paper pv">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="sub">Częste pytania</span><h2>Dobrze wiedzieć</h2></div>
+    <div class="faq"><details class="qa reveal"><summary>Od czego zacząć?</summary><p>Od telefonu. Na początek wystarczy wymiar, przeznaczenie budynku i&nbsp;lokalizacja działki.</p></details><details class="qa reveal"><summary>Czy przyjedziecie obejrzeć działkę?</summary><p>Tak. Przed wyceną oglądamy teren i&nbsp;sprawdzamy dojazd dla dźwigu i&nbsp;ciężkiego sprzętu.</p></details><details class="qa reveal"><summary>Jak wygląda wycena?</summary><p>Dostajesz ją rozbitą na etapy: posadowienie, konstrukcja, obudowa, bramy. Widzisz, co ile kosztuje.</p></details><details class="qa reveal"><summary>Rozbudujecie istniejącą halę?</summary><p>Tak. Dobudowujemy nowe części do istniejących hal i&nbsp;zmieniamy ich układ pod nowe potrzeby.</p></details></div>
   </div>
 </section>
 </main>
 
 <footer>
   <div class="wrap">
-    <div class="foot-grid">
-      <div class="foot-brand">
-        <div class="name">Kamax</div>
-        <p>Hale magazynowe, produkcyjne i obiekty usługowe. Częstochowa i okolice. Zaczynamy od rozmowy o tym, co ma stanąć na działce.</p>
-      </div>
-      <div class="foot-col">
-        <h4>Nawigacja</h4>
+    <div class="foot-top">
+      <div class="foot-list">
+        <a href="tel:+48791977070">+48 791 977 070</a>
+        <a href="sms:+48791977070">SMS: +48 791 977 070</a>
+        <span class="muted">Obszar działania</span>
+        <span>Częstochowa i&nbsp;okolice</span>
         <a href="oferta.html">Oferta</a>
         <a href="realizacje.html">Realizacje</a>
-        <a href="o-nas.html">O nas</a>
+        <a href="o-nas.html">O&nbsp;nas</a>
         <a href="kontakt.html">Kontakt</a>
       </div>
-      <div class="foot-col">
-        <h4>Kontakt</h4>
-        <a href="tel:+48791977070">+48 791 977 070</a>
-        <p>Częstochowa, śląskie</p>
-      <div class="foot-soc">
-        <a class="soc" href="https://www.google.com/maps/place/Kamax/data=!4m2!3m1!1s0xa31e9bbe7ba546d1:0x5132e5cb5c3500d8" target="_blank" rel="noopener" aria-label="Google - Kamax"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z" fill="currentColor"/></svg></a>
+      <div class="foot-side">
+        <div><a class="lnk" href="tel:+48791977070">Telefon <span class="arr">→</span></a><span class="foot-note">Rozmowa o&nbsp;inwestycji</span></div>
+        <div><a class="lnk soc-g" href="https://www.google.com/maps/place/Kamax/data=!4m2!3m1!1s0xa31e9bbe7ba546d1:0x5132e5cb5c3500d8" target="_blank" rel="noopener" aria-label="Google - Kamax">Wizytówka Google <span class="arr">→</span></a><span class="foot-note">Kamax w&nbsp;Mapach Google</span></div>
       </div>
+    </div>
+    <div class="foot-mid">
+      <div class="name">KAMAX<small>Hale i&nbsp;budynki · Częstochowa</small></div>
+      <div class="foot-cta">
+        <span class="big">Planujesz halę albo rozbudowę?</span>
+        <a class="lnk" href="tel:+48791977070">Zadzwoń i&nbsp;opowiedz o&nbsp;działce <span class="arr">→</span></a>
       </div>
     </div>
     <div class="foot-bot">
-      <span>© 2026 Kamax</span>
-      <span>Projekt strony: <a class="foot-credit" href="https://impulseo.pl" target="_blank" rel="noopener">Impulseo</a></span>
+      <span>Kamax<br>Częstochowa, śląskie</span>
+      <span>© 2026 Kamax<br>Projekt strony: <a class="foot-credit" href="https://impulseo.pl" target="_blank" rel="noopener">Impulseo</a></span>
     </div>
   </div>
 </footer>
-<div class="sticky-call"><a class="sc-call" href="tel:+48791977070"><svg class="ico-tel" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg> Zadzwoń</a><a class="sc-quote" href="kontakt.html">Zadzwoń</a></div>
+<div class="sticky-call"><a class="sc-call" href="tel:+48791977070"><svg class="ico-tel" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg> Zadzwoń</a><a class="sc-quote" href="sms:+48791977070">SMS</a></div>
 <div class="demo-wazne" data-do="2026-11-10" data-cykl="3" hidden><svg class="dw-ico" width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8.6" stroke="currentColor" stroke-width="1.8"/><path d="M12 7.2V12l3.3 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span class="dw-txt"></span></div>
 
-<script src="assets/main.js"></script>
+<script src="assets/main.js?v=20261104k"></script>
 </body>
 </html>
